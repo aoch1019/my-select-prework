@@ -1,5 +1,4 @@
 def my_select(collection)
-  if block_given?
     counter = 0
     new_array = []
   
@@ -10,8 +9,5 @@ def my_select(collection)
       end
     end
     return new_array
-  else
-    puts "Hey! No block was given!"
-    return nil
   end
 end
