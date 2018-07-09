@@ -1,4 +1,7 @@
 def my_select(collection)
+  if collection.length == 0
+    return nil
+  
   counter = 0
   new_array = []
   
