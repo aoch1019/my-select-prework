@@ -1,7 +1,5 @@
 def my_select(collection)
   if block_given?
-    return nil
-  end
   
   counter = 0
   new_array = []
