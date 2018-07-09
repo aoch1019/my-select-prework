@@ -1,5 +1,5 @@
 def my_select(collection)
-  if collection.length == 0
+  if block_given?
     return nil
   end
   
