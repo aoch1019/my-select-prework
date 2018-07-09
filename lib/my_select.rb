@@ -12,5 +12,6 @@ def my_select(collection)
     return new_array
   else
     puts "Hey! No block was given!"
+    return nil
   end
 end
